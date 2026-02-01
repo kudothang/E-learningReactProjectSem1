@@ -1,1018 +1,1034 @@
 {
-  "courses": [
-    {
-      "id": 1,
-      "title": "Lập Trình Web Fullstack với React & Node.js",
-      "category": "Fullstack",
-      "instructor": "Nguyễn Văn An",
-      "instructorRole": "Senior Fullstack Developer tại Google",
-      "price": 1599000,
-      "originalPrice": 2999000,
-      "lessons": 48,
-      "duration": "32 giờ",
-      "rating": 4.9,
-      "students": 2543,
-      "image": "react",
-      "badge": "Bestseller",
-      "level": "Nâng cao",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-01-15",
-      "description": "Khóa học Fullstack React & Node.js từ cơ bản đến nâng cao.",
-      "whatYouLearn": [
-        "React Hooks",
-        "Node.js & Express",
-        "MongoDB",
-        "JWT Auth",
-        "Deploy thực tế"
-      ],
-      "curriculum": [
-        { "title": "Web Overview", "duration": "1 giờ", "type": "video" },
-        { "title": "React Core", "duration": "5 giờ", "type": "video + lab" },
-        { "title": "Node Backend", "duration": "6 giờ", "type": "video + project" }
-      ],
-      "requirements": ["HTML CSS", "JavaScript cơ bản"]
-    },
-
-    {
-      "id": 2,
-      "title": "ReactJS từ Cơ Bản đến Nâng Cao",
-      "category": "Frontend",
-      "instructor": "Trần Minh Hoàng",
-      "instructorRole": "Frontend Lead tại Shopee",
-      "price": 1299000,
-      "originalPrice": 2499000,
-      "lessons": 42,
-      "duration": "28 giờ",
-      "rating": 4.8,
-      "students": 3890,
-      "image": "react",
-      "badge": "Hot",
-      "level": "Trung cấp",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-02-01",
-      "description": "Làm chủ ReactJS để xây dựng SPA chuyên nghiệp.",
-      "whatYouLearn": ["Hooks", "Context", "Performance"],
-      "curriculum": [
-        { "title": "JSX & Component", "duration": "2 giờ", "type": "video" },
-        { "title": "Hooks nâng cao", "duration": "4 giờ", "type": "lab" }
-      ],
-      "requirements": ["JavaScript"]
-    },
-
-    {
-      "id": 3,
-      "title": "Next.js & App Router Thực Chiến",
-      "category": "Frontend",
-      "instructor": "Phạm Quốc Huy",
-      "instructorRole": "Frontend Engineer tại Vercel",
-      "price": 1499000,
-      "originalPrice": 2799000,
-      "lessons": 36,
-      "duration": "24 giờ",
-      "rating": 4.9,
-      "students": 1820,
-      "image": "nextjs",
-      "badge": "Bestseller",
-      "level": "Nâng cao",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-03-12",
-      "description": "Xây dựng website SEO & performance cao với Next.js.",
-      "whatYouLearn": ["SSR", "SSG", "App Router"],
-      "curriculum": [
-        { "title": "Next Basics", "duration": "3 giờ", "type": "video" },
-        { "title": "Project thực tế", "duration": "6 giờ", "type": "project" }
-      ],
-      "requirements": ["ReactJS"]
-    },
-
-    {
-      "id": 4,
-      "title": "Node.js & Express Backend Mastery",
-      "category": "Backend",
-      "instructor": "Lê Quốc Bảo",
-      "instructorRole": "Backend Engineer tại Grab",
-      "price": 1399000,
-      "originalPrice": 2599000,
-      "lessons": 38,
-      "duration": "26 giờ",
-      "rating": 4.7,
-      "students": 1980,
-      "image": "node",
-      "badge": "Hot",
-      "level": "Trung cấp",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-03-10",
-      "description": "Xây dựng REST API chuyên nghiệp với Node.js.",
-      "whatYouLearn": ["Express", "JWT", "MongoDB"],
-      "curriculum": [
-        { "title": "Node Core", "duration": "3 giờ", "type": "video" }
-      ],
-      "requirements": ["JavaScript"]
-    },
-
-    {
-      "id": 5,
-      "title": "TypeScript cho Lập Trình Viên JavaScript",
-      "category": "Lập Trình",
-      "instructor": "Phạm Hải Nam",
-      "instructorRole": "Software Engineer tại Microsoft",
-      "price": 899000,
-      "originalPrice": 1799000,
-      "lessons": 30,
-      "duration": "18 giờ",
-      "rating": 4.8,
-      "students": 2100,
-      "image": "typescript",
-      "badge": "Bestseller",
-      "level": "Cơ bản",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-01-20",
-      "description": "TypeScript từ cơ bản đến ứng dụng thực tế.",
-      "whatYouLearn": ["Type System", "Generics"],
-      "curriculum": [{ "title": "TS Basics", "duration": "3 giờ", "type": "video" }],
-      "requirements": ["JavaScript"]
-    },
-
-    {
-      "id": 6,
-      "title": "HTML & CSS từ Zero đến Hero",
-      "category": "Frontend",
-      "instructor": "Nguyễn Minh Tâm",
-      "instructorRole": "UI Engineer tại FPT",
-      "price": 599000,
-      "originalPrice": 1299000,
-      "lessons": 25,
-      "duration": "16 giờ",
-      "rating": 4.6,
-      "students": 5400,
-      "image": "htmlcss",
-      "badge": "Hot",
-      "level": "Cơ bản",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-01-05",
-      "description": "Nền tảng HTML & CSS cho người mới.",
-      "whatYouLearn": ["HTML5", "Flexbox", "Responsive"],
-      "curriculum": [{ "title": "HTML/CSS", "duration": "6 giờ", "type": "video" }],
-      "requirements": []
-    },
-
-    {
-      "id": 7,
-      "title": "JavaScript Nâng Cao & Clean Code",
-      "category": "Lập Trình",
-      "instructor": "Đỗ Thanh Long",
-      "instructorRole": "Senior Developer tại Tiki",
-      "price": 1099000,
-      "originalPrice": 2099000,
-      "lessons": 34,
-      "duration": "22 giờ",
-      "rating": 4.8,
-      "students": 1750,
-      "image": "javascript",
-      "badge": "Bestseller",
-      "level": "Nâng cao",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-02-18",
-      "description": "JavaScript chuyên sâu & best practices.",
-      "whatYouLearn": ["Async/Await", "Clean Code"],
-      "curriculum": [{ "title": "Advanced JS", "duration": "5 giờ", "type": "video" }],
-      "requirements": ["JavaScript cơ bản"]
-    },
-
-    {
-      "id": 8,
-      "title": "Python cho Người Mới Bắt Đầu",
-      "category": "Lập Trình",
-      "instructor": "Vũ Hoàng Phúc",
-      "instructorRole": "Data Engineer tại VNG",
-      "price": 799000,
-      "originalPrice": 1599000,
-      "lessons": 28,
-      "duration": "20 giờ",
-      "rating": 4.7,
-      "students": 3200,
-      "image": "python",
-      "badge": "Hot",
-      "level": "Cơ bản",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-01-22",
-      "description": "Python căn bản cho lập trình và dữ liệu.",
-      "whatYouLearn": ["Syntax", "OOP"],
-      "curriculum": [{ "title": "Python Basics", "duration": "6 giờ", "type": "video" }],
-      "requirements": []
-    },
-
-    {
-      "id": 9,
-      "title": "Machine Learning Cơ Bản",
-      "category": "AI",
-      "instructor": "TS. Nguyễn Hoàng Minh",
-      "instructorRole": "AI Researcher",
-      "price": 1899000,
-      "originalPrice": 3499000,
-      "lessons": 40,
-      "duration": "30 giờ",
-      "rating": 4.9,
-      "students": 980,
-      "image": "ml",
-      "badge": "New",
-      "level": "Trung cấp",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-03-01",
-      "description": "Nhập môn Machine Learning.",
-      "whatYouLearn": ["Regression", "Classification"],
-      "curriculum": [{ "title": "ML Overview", "duration": "4 giờ", "type": "video" }],
-      "requirements": ["Python"]
-    },
-
-    {
-      "id": 10,
-      "title": "UI/UX Design Foundations",
-      "category": "Design",
-      "instructor": "Lê Thảo Vy",
-      "instructorRole": "Product Designer tại Airbnb",
-      "price": 999000,
-      "originalPrice": 1999000,
-      "lessons": 26,
-      "duration": "18 giờ",
-      "rating": 4.8,
-      "students": 2100,
-      "image": "uiux",
-      "badge": "Hot",
-      "level": "Cơ bản",
-      "language": "Tiếng Việt",
-      "certificate": true,
-      "lastUpdated": "2024-02-10",
-      "description": "Nền tảng UI/UX cho người mới.",
-      "whatYouLearn": ["User Research", "Wireframe"],
-      "curriculum": [{ "title": "UX Basics", "duration": "3 giờ", "type": "video" }],
-      "requirements": []
-    }
-{
-  "id": 11,
-  "title": "VueJS 3 & Composition API Thực Chiến",
-  "category": "Frontend",
-  "instructor": "Ngô Đức Thành",
-  "instructorRole": "Frontend Engineer tại Lazada",
-  "price": 1199000,
-  "originalPrice": 2299000,
-  "lessons": 34,
-  "duration": "24 giờ",
-  "rating": 4.7,
-  "students": 1650,
-  "image": "vue",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-05",
-  "description": "Xây dựng ứng dụng web hiện đại với VueJS 3 và Composition API.",
-  "whatYouLearn": [
-    "Vue 3 Core",
-    "Composition API",
-    "State Management",
-    "Project thực tế"
-  ],
-  "curriculum": [
-    { "title": "VueJS Overview", "duration": "2 giờ", "type": "video" },
-    { "title": "Composition API", "duration": "4 giờ", "type": "video + lab" }
-  ],
-  "requirements": ["HTML", "JavaScript"]
-},
-{
-  "id": 12,
-  "title": "Angular Framework từ Cơ Bản đến Nâng Cao",
-  "category": "Frontend",
-  "instructor": "Trịnh Minh Khang",
-  "instructorRole": "Senior Frontend tại NashTech",
-  "price": 1499000,
-  "originalPrice": 2799000,
-  "lessons": 40,
-  "duration": "30 giờ",
-  "rating": 4.6,
-  "students": 980,
-  "image": "angular",
-  "badge": "New",
-  "level": "Nâng cao",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-02",
-  "description": "Khoá học Angular toàn diện cho dự án enterprise.",
-  "whatYouLearn": [
-    "Angular Core",
-    "RxJS",
-    "Module & Lazy Loading"
-  ],
-  "curriculum": [
-    { "title": "Angular Basics", "duration": "3 giờ", "type": "video" },
-    { "title": "RxJS nâng cao", "duration": "4 giờ", "type": "video + lab" }
-  ],
-  "requirements": ["TypeScript", "JavaScript"]
-},
-{
-  "id": 13,
-  "title": "SQL & Database Design Chuẩn Thực Tế",
-  "category": "Backend",
-  "instructor": "Nguyễn Hữu Phước",
-  "instructorRole": "Database Architect tại Viettel",
-  "price": 999000,
-  "originalPrice": 1999000,
-  "lessons": 32,
-  "duration": "22 giờ",
-  "rating": 4.8,
-  "students": 2700,
-  "image": "sql",
-  "badge": "Bestseller",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-28",
-  "description": "Thiết kế và tối ưu database với SQL Server & MySQL.",
-  "whatYouLearn": [
-    "SQL Query",
-    "Index & Optimization",
-    "Database Design"
-  ],
-  "curriculum": [
-    { "title": "SQL Basics", "duration": "3 giờ", "type": "video" },
-    { "title": "Database Design", "duration": "4 giờ", "type": "video + bài tập" }
-  ],
-  "requirements": ["Kiến thức tin học cơ bản"]
-},
-{
-  "id": 14,
-  "title": "Docker & Container cho Developer",
-  "category": "DevOps",
-  "instructor": "Phan Quốc Dũng",
-  "instructorRole": "DevOps Engineer tại Axon",
-  "price": 1099000,
-  "originalPrice": 2099000,
-  "lessons": 28,
-  "duration": "20 giờ",
-  "rating": 4.7,
-  "students": 1350,
-  "image": "docker",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-14",
-  "description": "Đóng gói và triển khai ứng dụng với Docker.",
-  "whatYouLearn": [
-    "Docker Image",
-    "Docker Compose",
-    "CI/CD cơ bản"
-  ],
-  "curriculum": [
-    { "title": "Docker Fundamentals", "duration": "3 giờ", "type": "video" },
-    { "title": "Thực hành Docker", "duration": "4 giờ", "type": "lab" }
-  ],
-  "requirements": ["Linux cơ bản"]
-},
-{
-  "id": 15,
-  "title": "AWS Cloud Practitioner Essentials",
-  "category": "Cloud",
-  "instructor": "Nguyễn Thành Trung",
-  "instructorRole": "Cloud Architect tại Amazon",
-  "price": 1699000,
-  "originalPrice": 3199000,
-  "lessons": 36,
-  "duration": "26 giờ",
-  "rating": 4.9,
-  "students": 1120,
-  "image": "aws",
-  "badge": "Bestseller",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-08",
-  "description": "Nền tảng điện toán đám mây với AWS.",
-  "whatYouLearn": [
-    "EC2",
-    "S3",
-    "IAM",
-    "Cloud Security"
-  ],
-  "curriculum": [
-    { "title": "AWS Overview", "duration": "4 giờ", "type": "video" }
-  ],
-  "requirements": ["Kiến thức IT cơ bản"]
-},
-{
-  "id": 16,
-  "title": "Flutter Mobile App từ Zero đến Production",
-  "category": "Mobile",
-  "instructor": "Lê Hoàng Quân",
-  "instructorRole": "Mobile Lead tại Zalo",
-  "price": 1399000,
-  "originalPrice": 2699000,
-  "lessons": 44,
-  "duration": "30 giờ",
-  "rating": 4.8,
-  "students": 1580,
-  "image": "flutter",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-20",
-  "description": "Xây dựng app iOS & Android với Flutter.",
-  "whatYouLearn": [
-    "Dart",
-    "Flutter UI",
-    "State Management"
-  ],
-  "curriculum": [
-    { "title": "Flutter Basics", "duration": "4 giờ", "type": "video" },
-    { "title": "Project App", "duration": "6 giờ", "type": "project" }
-  ],
-  "requirements": ["Lập trình cơ bản"]
-},
-{
-  "id": 17,
-  "title": "React Native Thực Chiến App Đa Nền Tảng",
-  "category": "Mobile",
-  "instructor": "Nguyễn Tuấn Kiệt",
-  "instructorRole": "Mobile Engineer tại BeGroup",
-  "price": 1499000,
-  "originalPrice": 2799000,
-  "lessons": 38,
-  "duration": "28 giờ",
-  "rating": 4.7,
-  "students": 1400,
-  "image": "react-native",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-25",
-  "description": "Xây dựng ứng dụng mobile với React Native.",
-  "whatYouLearn": [
-    "React Native Core",
-    "Navigation",
-    "API Integration"
-  ],
-  "curriculum": [
-    { "title": "RN Basics", "duration": "3 giờ", "type": "video" }
-  ],
-  "requirements": ["ReactJS"]
-},
-{
-  "id": 18,
-  "title": "Data Analyst với Python & Pandas",
-  "category": "Data",
-  "instructor": "Trần Ngọc Hà",
-  "instructorRole": "Data Analyst tại Shopee",
-  "price": 1299000,
-  "originalPrice": 2499000,
-  "lessons": 35,
-  "duration": "24 giờ",
-  "rating": 4.8,
-  "students": 1220,
-  "image": "data",
-  "badge": "New",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-05",
-  "description": "Phân tích dữ liệu với Python, Pandas và Numpy.",
-  "whatYouLearn": [
-    "Data Cleaning",
-    "EDA",
-    "Visualization"
-  ],
-  "curriculum": [
-    { "title": "Python for Data", "duration": "4 giờ", "type": "video" }
-  ],
-  "requirements": ["Python cơ bản"]
-},
-{
-  "id": 19,
-  "title": "Power BI & Data Visualization",
-  "category": "Data",
-  "instructor": "Hoàng Thị Mai",
-  "instructorRole": "BI Consultant tại Deloitte",
-  "price": 999000,
-  "originalPrice": 1899000,
-  "lessons": 24,
-  "duration": "18 giờ",
-  "rating": 4.7,
-  "students": 1600,
-  "image": "powerbi",
-  "badge": "Hot",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-30",
-  "description": "Trực quan hoá dữ liệu với Power BI.",
-  "whatYouLearn": [
-    "Dashboard",
-    "DAX cơ bản"
-  ],
-  "curriculum": [
-    { "title": "Power BI Overview", "duration": "3 giờ", "type": "video" }
-  ],
-  "requirements": ["Excel cơ bản"]
-},
-{
-  "id": 20,
-  "title": "DevOps CI/CD với GitHub Actions",
-  "category": "DevOps",
-  "instructor": "Nguyễn Đức Cường",
-  "instructorRole": "DevOps Lead tại NashTech",
-  "price": 1399000,
-  "originalPrice": 2699000,
-  "lessons": 30,
-  "duration": "22 giờ",
-  "rating": 4.9,
-  "students": 950,
-  "image": "cicd",
-  "badge": "Bestseller",
-  "level": "Nâng cao",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-15",
-  "description": "Tự động hoá build & deploy với GitHub Actions.",
-  "whatYouLearn": [
-    "CI/CD Pipeline",
-    "Docker + GitHub Actions",
-    "Deploy Cloud"
-  ],
-  "curriculum": [
-    { "title": "CI/CD Basics", "duration": "3 giờ", "type": "video" }
-  ],
-  "requirements": ["Git", "Docker"]
-}
-{
-  "id": 21,
-  "title": "Digital Marketing Tổng Thể từ A–Z",
-  "category": "Marketing",
-  "instructor": "Nguyễn Thành Đạt",
-  "instructorRole": "Marketing Director tại Unilever",
-  "price": 1499000,
-  "originalPrice": 2999000,
-  "lessons": 40,
-  "duration": "28 giờ",
-  "rating": 4.9,
-  "students": 3200,
-  "image": "digital-marketing",
-  "badge": "Bestseller",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-01",
-  "description": "Chiến lược Digital Marketing toàn diện cho doanh nghiệp.",
-  "whatYouLearn": ["SEO", "Content", "Paid Ads", "Analytics"],
-  "curriculum": [{ "title": "Marketing Overview", "duration": "3 giờ", "type": "video" }],
-  "requirements": ["Máy tính", "Internet"]
-},
-{
-  "id": 22,
-  "title": "Facebook & TikTok Ads Thực Chiến",
-  "category": "Marketing",
-  "instructor": "Lê Minh Quân",
-  "instructorRole": "Performance Marketing Manager",
-  "price": 1199000,
-  "originalPrice": 2399000,
-  "lessons": 32,
-  "duration": "22 giờ",
-  "rating": 4.8,
-  "students": 2800,
-  "image": "ads",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-18",
-  "description": "Tối ưu quảng cáo Facebook & TikTok.",
-  "whatYouLearn": ["Targeting", "Creative", "Scaling Ads"],
-  "curriculum": [{ "title": "Ads Setup", "duration": "4 giờ", "type": "video + lab" }],
-  "requirements": ["Facebook cơ bản"]
-},
-{
-  "id": 23,
-  "title": "SEO Website từ Cơ Bản đến Nâng Cao",
-  "category": "Marketing",
-  "instructor": "Phạm Tuấn Anh",
-  "instructorRole": "SEO Lead tại TopDev",
-  "price": 1099000,
-  "originalPrice": 2199000,
-  "lessons": 30,
-  "duration": "20 giờ",
-  "rating": 4.7,
-  "students": 2400,
-  "image": "seo",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-25",
-  "description": "SEO Onpage, Offpage & Technical.",
-  "whatYouLearn": ["Keyword", "Onpage SEO", "Backlink"],
-  "curriculum": [{ "title": "SEO Fundamentals", "duration": "3 giờ", "type": "video" }],
-  "requirements": ["Website cơ bản"]
-},
-{
-  "id": 24,
-  "title": "Thiết Kế UI với Figma Chuyên Nghiệp",
-  "category": "Thiết Kế",
-  "instructor": "Trần Thảo My",
-  "instructorRole": "UI Designer tại Grab",
-  "price": 999000,
-  "originalPrice": 1999000,
-  "lessons": 28,
-  "duration": "18 giờ",
-  "rating": 4.9,
-  "students": 2600,
-  "image": "figma",
-  "badge": "Bestseller",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-02",
-  "description": "Thiết kế UI hiện đại với Figma.",
-  "whatYouLearn": ["Auto Layout", "Design System"],
-  "curriculum": [{ "title": "Figma Basics", "duration": "4 giờ", "type": "video + thực hành" }],
-  "requirements": []
-},
-{
-  "id": 25,
-  "title": "Graphic Design với Photoshop & Illustrator",
-  "category": "Thiết Kế",
-  "instructor": "Nguyễn Hoài Nam",
-  "instructorRole": "Senior Graphic Designer",
-  "price": 1299000,
-  "originalPrice": 2499000,
-  "lessons": 36,
-  "duration": "24 giờ",
-  "rating": 4.8,
-  "students": 2100,
-  "image": "graphic",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-18",
-  "description": "Thiết kế đồ họa từ cơ bản đến nâng cao.",
-  "whatYouLearn": ["Photoshop", "Illustrator"],
-  "curriculum": [{ "title": "Design Fundamentals", "duration": "5 giờ", "type": "video" }],
-  "requirements": ["Máy tính"]
-},
-{
-  "id": 26,
-  "title": "Kinh Doanh Online & Thương Mại Điện Tử",
-  "category": "Kinh Doanh",
-  "instructor": "Võ Thanh Hùng",
-  "instructorRole": "CEO Startup TMĐT",
-  "price": 1399000,
-  "originalPrice": 2799000,
-  "lessons": 34,
-  "duration": "24 giờ",
-  "rating": 4.8,
-  "students": 1950,
-  "image": "ecommerce",
-  "badge": "Bestseller",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-28",
-  "description": "Xây dựng và vận hành kinh doanh online.",
-  "whatYouLearn": ["Shopee", "Lazada", "Marketing"],
-  "curriculum": [{ "title": "Ecommerce Overview", "duration": "3 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 27,
-  "title": "Khởi Nghiệp & Quản Trị Doanh Nghiệp",
-  "category": "Kinh Doanh",
-  "instructor": "TS. Đặng Quốc Khánh",
-  "instructorRole": "Business Consultant",
-  "price": 1599000,
-  "originalPrice": 3199000,
-  "lessons": 38,
-  "duration": "26 giờ",
-  "rating": 4.7,
-  "students": 1100,
-  "image": "startup",
-  "badge": "New",
-  "level": "Nâng cao",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-10",
-  "description": "Tư duy khởi nghiệp & quản trị doanh nghiệp.",
-  "whatYouLearn": ["Business Model", "Leadership"],
-  "curriculum": [{ "title": "Startup Basics", "duration": "4 giờ", "type": "video" }],
-  "requirements": ["Quan tâm kinh doanh"]
-},
-{
-  "id": 28,
-  "title": "Tiếng Anh Giao Tiếp cho Người Đi Làm",
-  "category": "Ngoại Ngữ",
-  "instructor": "Sarah Johnson",
-  "instructorRole": "TESOL Certified Instructor",
-  "price": 999000,
-  "originalPrice": 1999000,
-  "lessons": 30,
-  "duration": "20 giờ",
-  "rating": 4.9,
-  "students": 4200,
-  "image": "english",
-  "badge": "Bestseller",
-  "level": "Cơ bản",
-  "language": "Tiếng Anh & Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-12",
-  "description": "Giao tiếp tiếng Anh tự tin nơi công sở.",
-  "whatYouLearn": ["Speaking", "Listening"],
-  "curriculum": [{ "title": "Communication", "duration": "4 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 29,
-  "title": "IELTS 6.5+ Chiến Lược & Thực Hành",
-  "category": "Ngoại Ngữ",
-  "instructor": "Nguyễn Thị Linh",
-  "instructorRole": "IELTS Trainer 8.5",
-  "price": 1799000,
-  "originalPrice": 3499000,
-  "lessons": 42,
-  "duration": "30 giờ",
-  "rating": 4.8,
-  "students": 1800,
-  "image": "ielts",
-  "badge": "Hot",
-  "level": "Nâng cao",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-22",
-  "description": "Chiến lược luyện thi IELTS hiệu quả.",
-  "whatYouLearn": ["Reading", "Writing", "Speaking"],
-  "curriculum": [{ "title": "IELTS Strategy", "duration": "5 giờ", "type": "video + bài tập" }],
-  "requirements": ["English cơ bản"]
-},
-{
-  "id": 30,
-  "title": "Nhiếp Ảnh Cơ Bản cho Người Mới",
-  "category": "Nhiếp Ảnh",
-  "instructor": "Trần Đức Long",
-  "instructorRole": "Professional Photographer",
-  "price": 899000,
-  "originalPrice": 1799000,
-  "lessons": 24,
-  "duration": "16 giờ",
-  "rating": 4.7,
-  "students": 1600,
-  "image": "photography",
-  "badge": "Hot",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-08",
-  "description": "Nắm vững kỹ thuật chụp ảnh.",
-  "whatYouLearn": ["Exposure", "Composition"],
-  "curriculum": [{ "title": "Camera Basics", "duration": "3 giờ", "type": "video" }],
-  "requirements": ["Máy ảnh hoặc điện thoại"]
-},
-{
-  "id": 31,
-  "title": "Chỉnh Ảnh Lightroom & Photoshop",
-  "category": "Nhiếp Ảnh",
-  "instructor": "Hoàng Minh Phúc",
-  "instructorRole": "Photo Retoucher",
-  "price": 1099000,
-  "originalPrice": 2199000,
-  "lessons": 28,
-  "duration": "20 giờ",
-  "rating": 4.8,
-  "students": 1400,
-  "image": "lightroom",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-05",
-  "description": "Chỉnh sửa ảnh chuyên nghiệp.",
-  "whatYouLearn": ["Color Grading", "Retouch"],
-  "curriculum": [{ "title": "Editing Basics", "duration": "4 giờ", "type": "video + lab" }],
-  "requirements": ["Nhiếp ảnh cơ bản"]
-},
-{
-  "id": 32,
-  "title": "Branding & Xây Dựng Thương Hiệu",
-  "category": "Marketing",
-  "instructor": "Phạm Ngọc Hân",
-  "instructorRole": "Brand Strategist",
-  "price": 1299000,
-  "originalPrice": 2499000,
-  "lessons": 30,
-  "duration": "22 giờ",
-  "rating": 4.7,
-  "students": 1250,
-  "image": "branding",
-  "badge": "New",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-12",
-  "description": "Chiến lược xây dựng thương hiệu.",
-  "whatYouLearn": ["Brand Identity", "Storytelling"],
-  "curriculum": [{ "title": "Brand Basics", "duration": "3 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 33,
-  "title": "Content Marketing & Copywriting",
-  "category": "Marketing",
-  "instructor": "Lê Quốc Việt",
-  "instructorRole": "Senior Copywriter",
-  "price": 999000,
-  "originalPrice": 1999000,
-  "lessons": 26,
-  "duration": "18 giờ",
-  "rating": 4.8,
-  "students": 2100,
-  "image": "content",
-  "badge": "Bestseller",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-20",
-  "description": "Viết content thu hút & bán hàng.",
-  "whatYouLearn": ["Copywriting", "Content Plan"],
-  "curriculum": [{ "title": "Writing Basics", "duration": "3 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 34,
-  "title": "Video Marketing & Dựng Video Cơ Bản",
-  "category": "Marketing",
-  "instructor": "Nguyễn Nhật Minh",
-  "instructorRole": "Video Producer",
-  "price": 1199000,
-  "originalPrice": 2399000,
-  "lessons": 28,
-  "duration": "20 giờ",
-  "rating": 4.7,
-  "students": 1350,
-  "image": "video",
-  "badge": "Hot",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-02-12",
-  "description": "Làm video marketing cho mạng xã hội.",
-  "whatYouLearn": ["Premiere", "Short Video"],
-  "curriculum": [{ "title": "Video Editing", "duration": "4 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 35,
-  "title": "Kỹ Năng Bán Hàng & Đàm Phán",
-  "category": "Kinh Doanh",
-  "instructor": "Trần Quốc Tuấn",
-  "instructorRole": "Sales Director",
-  "price": 1099000,
-  "originalPrice": 2199000,
-  "lessons": 24,
-  "duration": "18 giờ",
-  "rating": 4.8,
-  "students": 1700,
-  "image": "sales",
-  "badge": "Hot",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-15",
-  "description": "Kỹ năng bán hàng hiệu quả.",
-  "whatYouLearn": ["Sales Funnel", "Negotiation"],
-  "curriculum": [{ "title": "Sales Basics", "duration": "3 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 36,
-  "title": "Quản Lý Tài Chính Cá Nhân",
-  "category": "Kinh Doanh",
-  "instructor": "Nguyễn Hoàng Yến",
-  "instructorRole": "Financial Advisor",
-  "price": 899000,
-  "originalPrice": 1799000,
-  "lessons": 22,
-  "duration": "16 giờ",
-  "rating": 4.9,
-  "students": 2500,
-  "image": "finance",
-  "badge": "Bestseller",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-01-05",
-  "description": "Quản lý chi tiêu & đầu tư cá nhân.",
-  "whatYouLearn": ["Budgeting", "Saving"],
-  "curriculum": [{ "title": "Finance Basics", "duration": "3 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 37,
-  "title": "Tiếng Nhật N5 cho Người Mới",
-  "category": "Ngoại Ngữ",
-  "instructor": "Yamada Kenji",
-  "instructorRole": "Japanese Language Instructor",
-  "price": 1099000,
-  "originalPrice": 2199000,
-  "lessons": 36,
-  "duration": "26 giờ",
-  "rating": 4.8,
-  "students": 1900,
-  "image": "japanese",
-  "badge": "Hot",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt & Nhật",
-  "certificate": true,
-  "lastUpdated": "2024-02-08",
-  "description": "Học tiếng Nhật từ con số 0.",
-  "whatYouLearn": ["Hiragana", "Katakana"],
-  "curriculum": [{ "title": "Japanese Basics", "duration": "4 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 38,
-  "title": "Tiếng Hàn Giao Tiếp Cơ Bản",
-  "category": "Ngoại Ngữ",
-  "instructor": "Kim Soo Jin",
-  "instructorRole": "Korean Language Trainer",
-  "price": 999000,
-  "originalPrice": 1999000,
-  "lessons": 30,
-  "duration": "22 giờ",
-  "rating": 4.7,
-  "students": 1650,
-  "image": "korean",
-  "badge": "New",
-  "level": "Cơ bản",
-  "language": "Tiếng Việt & Hàn",
-  "certificate": true,
-  "lastUpdated": "2024-02-20",
-  "description": "Giao tiếp tiếng Hàn hàng ngày.",
-  "whatYouLearn": ["Hangul", "Speaking"],
-  "curriculum": [{ "title": "Korean Basics", "duration": "3 giờ", "type": "video" }],
-  "requirements": []
-},
-{
-  "id": 39,
-  "title": "Nhiếp Ảnh Chân Dung & Lifestyle",
-  "category": "Nhiếp Ảnh",
-  "instructor": "Đặng Tuấn Kiệt",
-  "instructorRole": "Lifestyle Photographer",
-  "price": 1299000,
-  "originalPrice": 2599000,
-  "lessons": 28,
-  "duration": "20 giờ",
-  "rating": 4.8,
-  "students": 1100,
-  "image": "portrait",
-  "badge": "Hot",
-  "level": "Trung cấp",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-05",
-  "description": "Chụp ảnh chân dung chuyên nghiệp.",
-  "whatYouLearn": ["Lighting", "Posing"],
-  "curriculum": [{ "title": "Portrait Setup", "duration": "4 giờ", "type": "video" }],
-  "requirements": ["Nhiếp ảnh cơ bản"]
-},
-{
-  "id": 40,
-  "title": "Travel Photography & Storytelling",
-  "category": "Nhiếp Ảnh",
-  "instructor": "Nguyễn Gia Huy",
-  "instructorRole": "Travel Photographer",
-  "price": 1399000,
-  "originalPrice": 2799000,
-  "lessons": 30,
-  "duration": "22 giờ",
-  "rating": 4.9,
-  "students": 980,
-  "image": "travel-photo",
-  "badge": "Bestseller",
-  "level": "Nâng cao",
-  "language": "Tiếng Việt",
-  "certificate": true,
-  "lastUpdated": "2024-03-18",
-  "description": "Kể chuyện bằng hình ảnh du lịch.",
-  "whatYouLearn": ["Storytelling", "Composition"],
-  "curriculum": [{ "title": "Travel Photography", "duration": "5 giờ", "type": "video + project" }],
-  "requirements": ["Nhiếp ảnh cơ bản"]
-}
-	
-  ]
+    "courses": [
+        {
+            "id": 1,
+            "title": "Lập Trình Web Fullstack với React & Node.js",
+            "category": "Fullstack",
+            "instructor": "Nguyễn Văn An",
+            "instructorRole": "Senior Fullstack Developer tại Google",
+            "price": 1599000,
+            "originalPrice": 2999000,
+            "lessons": 48,
+            "duration": "32 giờ",
+            "rating": 4.9,
+            "students": 2543,
+            "image": "react",
+            "badge": "Bestseller",
+            "level": "Nâng cao",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-15",
+            "description": "Khóa học Fullstack React & Node.js từ cơ bản đến nâng cao.",
+            "whatYouLearn": [
+                "React Hooks",
+                "Node.js & Express",
+                "MongoDB",
+                "JWT Auth",
+                "Deploy thực tế"
+            ],
+            "curriculum": [
+                {
+                    "title": "Web Overview",
+                    "duration": "1 giờ",
+                    "type": "video"
+                },
+                {
+                    "title": "React Core",
+                    "duration": "5 giờ",
+                    "type": "video + lab"
+                },
+                {
+                    "title": "Node Backend",
+                    "duration": "6 giờ",
+                    "type": "video + project"
+                }
+            ],
+            "requirements": [
+                "HTML CSS",
+                "JavaScript cơ bản"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "ReactJS từ Cơ Bản đến Nâng Cao",
+            "category": "Frontend",
+            "instructor": "Trần Minh Hoàng",
+            "instructorRole": "Frontend Lead tại Shopee",
+            "price": 1299000,
+            "originalPrice": 2499000,
+            "lessons": 42,
+            "duration": "28 giờ",
+            "rating": 4.8,
+            "students": 3890,
+            "image": "react",
+            "badge": "Hot",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-01",
+            "description": "Làm chủ ReactJS để xây dựng SPA chuyên nghiệp.",
+            "whatYouLearn": [
+                "Hooks",
+                "Context",
+                "Performance"
+            ],
+            "curriculum": [
+                {
+                    "title": "JSX & Component",
+                    "duration": "2 giờ",
+                    "type": "video"
+                },
+                {
+                    "title": "Hooks nâng cao",
+                    "duration": "4 giờ",
+                    "type": "lab"
+                }
+            ],
+            "requirements": [
+                "JavaScript"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Next.js & App Router Thực Chiến",
+            "category": "Frontend",
+            "instructor": "Phạm Quốc Huy",
+            "instructorRole": "Frontend Engineer tại Vercel",
+            "price": 1499000,
+            "originalPrice": 2799000,
+            "lessons": 36,
+            "duration": "24 giờ",
+            "rating": 4.9,
+            "students": 1820,
+            "image": "nextjs",
+            "badge": "Bestseller",
+            "level": "Nâng cao",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-12",
+            "description": "Xây dựng website SEO & performance cao với Next.js.",
+            "whatYouLearn": [
+                "SSR",
+                "SSG",
+                "App Router"
+            ],
+            "curriculum": [
+                {
+                    "title": "Next Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                },
+                {
+                    "title": "Project thực tế",
+                    "duration": "6 giờ",
+                    "type": "project"
+                }
+            ],
+            "requirements": [
+                "ReactJS"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Node.js & Express Backend Mastery",
+            "category": "Backend",
+            "instructor": "Lê Quốc Bảo",
+            "instructorRole": "Backend Engineer tại Grab",
+            "price": 1399000,
+            "originalPrice": 2599000,
+            "lessons": 38,
+            "duration": "26 giờ",
+            "rating": 4.7,
+            "students": 1980,
+            "image": "node",
+            "badge": "Hot",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-10",
+            "description": "Xây dựng REST API chuyên nghiệp với Node.js.",
+            "whatYouLearn": [
+                "Express",
+                "JWT",
+                "MongoDB"
+            ],
+            "curriculum": [
+                {
+                    "title": "Node Core",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "JavaScript"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "TypeScript cho Lập Trình Viên JavaScript",
+            "category": "Lập Trình",
+            "instructor": "Phạm Hải Nam",
+            "instructorRole": "Software Engineer tại Microsoft",
+            "price": 899000,
+            "originalPrice": 1799000,
+            "lessons": 30,
+            "duration": "18 giờ",
+            "rating": 4.8,
+            "students": 2100,
+            "image": "typescript",
+            "badge": "Bestseller",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-20",
+            "description": "TypeScript từ cơ bản đến ứng dụng thực tế.",
+            "whatYouLearn": [
+                "Type System",
+                "Generics"
+            ],
+            "curriculum": [
+                {
+                    "title": "TS Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "JavaScript"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "HTML & CSS từ Zero đến Hero",
+            "category": "Frontend",
+            "instructor": "Nguyễn Minh Tâm",
+            "instructorRole": "UI Engineer tại FPT",
+            "price": 599000,
+            "originalPrice": 1299000,
+            "lessons": 25,
+            "duration": "16 giờ",
+            "rating": 4.6,
+            "students": 5400,
+            "image": "htmlcss",
+            "badge": "Hot",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-05",
+            "description": "Nền tảng HTML & CSS cho người mới.",
+            "whatYouLearn": [
+                "HTML5",
+                "Flexbox",
+                "Responsive"
+            ],
+            "curriculum": [
+                {
+                    "title": "HTML/CSS",
+                    "duration": "6 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 7,
+            "title": "JavaScript Nâng Cao & Clean Code",
+            "category": "Lập Trình",
+            "instructor": "Đỗ Thanh Long",
+            "instructorRole": "Senior Developer tại Tiki",
+            "price": 1099000,
+            "originalPrice": 2099000,
+            "lessons": 34,
+            "duration": "22 giờ",
+            "rating": 4.8,
+            "students": 1750,
+            "image": "javascript",
+            "badge": "Bestseller",
+            "level": "Nâng cao",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-18",
+            "description": "JavaScript chuyên sâu & best practices.",
+            "whatYouLearn": [
+                "Async/Await",
+                "Clean Code"
+            ],
+            "curriculum": [
+                {
+                    "title": "Advanced JS",
+                    "duration": "5 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "JavaScript cơ bản"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Python cho Người Mới Bắt Đầu",
+            "category": "Lập Trình",
+            "instructor": "Vũ Hoàng Phúc",
+            "instructorRole": "Data Engineer tại VNG",
+            "price": 799000,
+            "originalPrice": 1599000,
+            "lessons": 28,
+            "duration": "20 giờ",
+            "rating": 4.7,
+            "students": 3200,
+            "image": "python",
+            "badge": "Hot",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-22",
+            "description": "Python căn bản cho lập trình và dữ liệu.",
+            "whatYouLearn": [
+                "Syntax",
+                "OOP"
+            ],
+            "curriculum": [
+                {
+                    "title": "Python Basics",
+                    "duration": "6 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 9,
+            "title": "Machine Learning Cơ Bản",
+            "category": "AI",
+            "instructor": "TS. Nguyễn Hoàng Minh",
+            "instructorRole": "AI Researcher",
+            "price": 1899000,
+            "originalPrice": 3499000,
+            "lessons": 40,
+            "duration": "30 giờ",
+            "rating": 4.9,
+            "students": 980,
+            "image": "ml",
+            "badge": "New",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-01",
+            "description": "Nhập môn Machine Learning.",
+            "whatYouLearn": [
+                "Regression",
+                "Classification"
+            ],
+            "curriculum": [
+                {
+                    "title": "ML Overview",
+                    "duration": "4 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "Python"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "UI/UX Design Foundations",
+            "category": "Design",
+            "instructor": "Lê Thảo Vy",
+            "instructorRole": "Product Designer tại Airbnb",
+            "price": 999000,
+            "originalPrice": 1999000,
+            "lessons": 26,
+            "duration": "18 giờ",
+            "rating": 4.8,
+            "students": 2100,
+            "image": "uiux",
+            "badge": "Hot",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-10",
+            "description": "Nền tảng UI/UX cho người mới.",
+            "whatYouLearn": [
+                "User Research",
+                "Wireframe"
+            ],
+            "curriculum": [
+                {
+                    "title": "UX Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+      
+        {
+            "id": 11,
+            "title": "Digital Marketing Tổng Thể từ A–Z",
+            "category": "Marketing",
+            "instructor": "Nguyễn Thành Đạt",
+            "instructorRole": "Marketing Director tại Unilever",
+            "price": 1499000,
+            "originalPrice": 2999000,
+            "lessons": 40,
+            "duration": "28 giờ",
+            "rating": 4.9,
+            "students": 3200,
+            "image": "digital-marketing",
+            "badge": "Bestseller",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-01",
+            "description": "Chiến lược Digital Marketing toàn diện cho doanh nghiệp.",
+            "whatYouLearn": [
+                "SEO",
+                "Content",
+                "Paid Ads",
+                "Analytics"
+            ],
+            "curriculum": [
+                {
+                    "title": "Marketing Overview",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "Máy tính",
+                "Internet"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Facebook & TikTok Ads Thực Chiến",
+            "category": "Marketing",
+            "instructor": "Lê Minh Quân",
+            "instructorRole": "Performance Marketing Manager",
+            "price": 1199000,
+            "originalPrice": 2399000,
+            "lessons": 32,
+            "duration": "22 giờ",
+            "rating": 4.8,
+            "students": 2800,
+            "image": "ads",
+            "badge": "Hot",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-18",
+            "description": "Tối ưu quảng cáo Facebook & TikTok.",
+            "whatYouLearn": [
+                "Targeting",
+                "Creative",
+                "Scaling Ads"
+            ],
+            "curriculum": [
+                {
+                    "title": "Ads Setup",
+                    "duration": "4 giờ",
+                    "type": "video + lab"
+                }
+            ],
+            "requirements": [
+                "Facebook cơ bản"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "SEO Website từ Cơ Bản đến Nâng Cao",
+            "category": "Marketing",
+            "instructor": "Phạm Tuấn Anh",
+            "instructorRole": "SEO Lead tại TopDev",
+            "price": 1099000,
+            "originalPrice": 2199000,
+            "lessons": 30,
+            "duration": "20 giờ",
+            "rating": 4.7,
+            "students": 2400,
+            "image": "seo",
+            "badge": "Hot",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-25",
+            "description": "SEO Onpage, Offpage & Technical.",
+            "whatYouLearn": [
+                "Keyword",
+                "Onpage SEO",
+                "Backlink"
+            ],
+            "curriculum": [
+                {
+                    "title": "SEO Fundamentals",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "Website cơ bản"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Thiết Kế UI với Figma Chuyên Nghiệp",
+            "category": "Thiết Kế",
+            "instructor": "Trần Thảo My",
+            "instructorRole": "UI Designer tại Grab",
+            "price": 999000,
+            "originalPrice": 1999000,
+            "lessons": 28,
+            "duration": "18 giờ",
+            "rating": 4.9,
+            "students": 2600,
+            "image": "figma",
+            "badge": "Bestseller",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-02",
+            "description": "Thiết kế UI hiện đại với Figma.",
+            "whatYouLearn": [
+                "Auto Layout",
+                "Design System"
+            ],
+            "curriculum": [
+                {
+                    "title": "Figma Basics",
+                    "duration": "4 giờ",
+                    "type": "video + thực hành"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 15,
+            "title": "Graphic Design với Photoshop & Illustrator",
+            "category": "Thiết Kế",
+            "instructor": "Nguyễn Hoài Nam",
+            "instructorRole": "Senior Graphic Designer",
+            "price": 1299000,
+            "originalPrice": 2499000,
+            "lessons": 36,
+            "duration": "24 giờ",
+            "rating": 4.8,
+            "students": 2100,
+            "image": "graphic",
+            "badge": "Hot",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-18",
+            "description": "Thiết kế đồ họa từ cơ bản đến nâng cao.",
+            "whatYouLearn": [
+                "Photoshop",
+                "Illustrator"
+            ],
+            "curriculum": [
+                {
+                    "title": "Design Fundamentals",
+                    "duration": "5 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "Máy tính"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Kinh Doanh Online & Thương Mại Điện Tử",
+            "category": "Kinh Doanh",
+            "instructor": "Võ Thanh Hùng",
+            "instructorRole": "CEO Startup TMĐT",
+            "price": 1399000,
+            "originalPrice": 2799000,
+            "lessons": 34,
+            "duration": "24 giờ",
+            "rating": 4.8,
+            "students": 1950,
+            "image": "ecommerce",
+            "badge": "Bestseller",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-28",
+            "description": "Xây dựng và vận hành kinh doanh online.",
+            "whatYouLearn": [
+                "Shopee",
+                "Lazada",
+                "Marketing"
+            ],
+            "curriculum": [
+                {
+                    "title": "Ecommerce Overview",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 17,
+            "title": "Khởi Nghiệp & Quản Trị Doanh Nghiệp",
+            "category": "Kinh Doanh",
+            "instructor": "TS. Đặng Quốc Khánh",
+            "instructorRole": "Business Consultant",
+            "price": 1599000,
+            "originalPrice": 3199000,
+            "lessons": 38,
+            "duration": "26 giờ",
+            "rating": 4.7,
+            "students": 1100,
+            "image": "startup",
+            "badge": "New",
+            "level": "Nâng cao",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-10",
+            "description": "Tư duy khởi nghiệp & quản trị doanh nghiệp.",
+            "whatYouLearn": [
+                "Business Model",
+                "Leadership"
+            ],
+            "curriculum": [
+                {
+                    "title": "Startup Basics",
+                    "duration": "4 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "Quan tâm kinh doanh"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Tiếng Anh Giao Tiếp cho Người Đi Làm",
+            "category": "Ngoại Ngữ",
+            "instructor": "Sarah Johnson",
+            "instructorRole": "TESOL Certified Instructor",
+            "price": 999000,
+            "originalPrice": 1999000,
+            "lessons": 30,
+            "duration": "20 giờ",
+            "rating": 4.9,
+            "students": 4200,
+            "image": "english",
+            "badge": "Bestseller",
+            "level": "Cơ bản",
+            "language": "Tiếng Anh & Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-12",
+            "description": "Giao tiếp tiếng Anh tự tin nơi công sở.",
+            "whatYouLearn": [
+                "Speaking",
+                "Listening"
+            ],
+            "curriculum": [
+                {
+                    "title": "Communication",
+                    "duration": "4 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 19,
+            "title": "IELTS 6.5+ Chiến Lược & Thực Hành",
+            "category": "Ngoại Ngữ",
+            "instructor": "Nguyễn Thị Linh",
+            "instructorRole": "IELTS Trainer 8.5",
+            "price": 1799000,
+            "originalPrice": 3499000,
+            "lessons": 42,
+            "duration": "30 giờ",
+            "rating": 4.8,
+            "students": 1800,
+            "image": "ielts",
+            "badge": "Hot",
+            "level": "Nâng cao",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-22",
+            "description": "Chiến lược luyện thi IELTS hiệu quả.",
+            "whatYouLearn": [
+                "Reading",
+                "Writing",
+                "Speaking"
+            ],
+            "curriculum": [
+                {
+                    "title": "IELTS Strategy",
+                    "duration": "5 giờ",
+                    "type": "video + bài tập"
+                }
+            ],
+            "requirements": [
+                "English cơ bản"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Nhiếp Ảnh Cơ Bản cho Người Mới",
+            "category": "Nhiếp Ảnh",
+            "instructor": "Trần Đức Long",
+            "instructorRole": "Professional Photographer",
+            "price": 899000,
+            "originalPrice": 1799000,
+            "lessons": 24,
+            "duration": "16 giờ",
+            "rating": 4.7,
+            "students": 1600,
+            "image": "photography",
+            "badge": "Hot",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-08",
+            "description": "Nắm vững kỹ thuật chụp ảnh.",
+            "whatYouLearn": [
+                "Exposure",
+                "Composition"
+            ],
+            "curriculum": [
+                {
+                    "title": "Camera Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "Máy ảnh hoặc điện thoại"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Chỉnh Ảnh Lightroom & Photoshop",
+            "category": "Nhiếp Ảnh",
+            "instructor": "Hoàng Minh Phúc",
+            "instructorRole": "Photo Retoucher",
+            "price": 1099000,
+            "originalPrice": 2199000,
+            "lessons": 28,
+            "duration": "20 giờ",
+            "rating": 4.8,
+            "students": 1400,
+            "image": "lightroom",
+            "badge": "Hot",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-05",
+            "description": "Chỉnh sửa ảnh chuyên nghiệp.",
+            "whatYouLearn": [
+                "Color Grading",
+                "Retouch"
+            ],
+            "curriculum": [
+                {
+                    "title": "Editing Basics",
+                    "duration": "4 giờ",
+                    "type": "video + lab"
+                }
+            ],
+            "requirements": [
+                "Nhiếp ảnh cơ bản"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Branding & Xây Dựng Thương Hiệu",
+            "category": "Marketing",
+            "instructor": "Phạm Ngọc Hân",
+            "instructorRole": "Brand Strategist",
+            "price": 1299000,
+            "originalPrice": 2499000,
+            "lessons": 30,
+            "duration": "22 giờ",
+            "rating": 4.7,
+            "students": 1250,
+            "image": "branding",
+            "badge": "New",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-12",
+            "description": "Chiến lược xây dựng thương hiệu.",
+            "whatYouLearn": [
+                "Brand Identity",
+                "Storytelling"
+            ],
+            "curriculum": [
+                {
+                    "title": "Brand Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 23,
+            "title": "Content Marketing & Copywriting",
+            "category": "Marketing",
+            "instructor": "Lê Quốc Việt",
+            "instructorRole": "Senior Copywriter",
+            "price": 999000,
+            "originalPrice": 1999000,
+            "lessons": 26,
+            "duration": "18 giờ",
+            "rating": 4.8,
+            "students": 2100,
+            "image": "content",
+            "badge": "Bestseller",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-20",
+            "description": "Viết content thu hút & bán hàng.",
+            "whatYouLearn": [
+                "Copywriting",
+                "Content Plan"
+            ],
+            "curriculum": [
+                {
+                    "title": "Writing Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 24,
+            "title": "Video Marketing & Dựng Video Cơ Bản",
+            "category": "Marketing",
+            "instructor": "Nguyễn Nhật Minh",
+            "instructorRole": "Video Producer",
+            "price": 1199000,
+            "originalPrice": 2399000,
+            "lessons": 28,
+            "duration": "20 giờ",
+            "rating": 4.7,
+            "students": 1350,
+            "image": "video",
+            "badge": "Hot",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-02-12",
+            "description": "Làm video marketing cho mạng xã hội.",
+            "whatYouLearn": [
+                "Premiere",
+                "Short Video"
+            ],
+            "curriculum": [
+                {
+                    "title": "Video Editing",
+                    "duration": "4 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 25,
+            "title": "Kỹ Năng Bán Hàng & Đàm Phán",
+            "category": "Kinh Doanh",
+            "instructor": "Trần Quốc Tuấn",
+            "instructorRole": "Sales Director",
+            "price": 1099000,
+            "originalPrice": 2199000,
+            "lessons": 24,
+            "duration": "18 giờ",
+            "rating": 4.8,
+            "students": 1700,
+            "image": "sales",
+            "badge": "Hot",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-15",
+            "description": "Kỹ năng bán hàng hiệu quả.",
+            "whatYouLearn": [
+                "Sales Funnel",
+                "Negotiation"
+            ],
+            "curriculum": [
+                {
+                    "title": "Sales Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 26,
+            "title": "Quản Lý Tài Chính Cá Nhân",
+            "category": "Kinh Doanh",
+            "instructor": "Nguyễn Hoàng Yến",
+            "instructorRole": "Financial Advisor",
+            "price": 899000,
+            "originalPrice": 1799000,
+            "lessons": 22,
+            "duration": "16 giờ",
+            "rating": 4.9,
+            "students": 2500,
+            "image": "finance",
+            "badge": "Bestseller",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-01-05",
+            "description": "Quản lý chi tiêu & đầu tư cá nhân.",
+            "whatYouLearn": [
+                "Budgeting",
+                "Saving"
+            ],
+            "curriculum": [
+                {
+                    "title": "Finance Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 27,
+            "title": "Tiếng Nhật N5 cho Người Mới",
+            "category": "Ngoại Ngữ",
+            "instructor": "Yamada Kenji",
+            "instructorRole": "Japanese Language Instructor",
+            "price": 1099000,
+            "originalPrice": 2199000,
+            "lessons": 36,
+            "duration": "26 giờ",
+            "rating": 4.8,
+            "students": 1900,
+            "image": "japanese",
+            "badge": "Hot",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt & Nhật",
+            "certificate": true,
+            "lastUpdated": "2024-02-08",
+            "description": "Học tiếng Nhật từ con số 0.",
+            "whatYouLearn": [
+                "Hiragana",
+                "Katakana"
+            ],
+            "curriculum": [
+                {
+                    "title": "Japanese Basics",
+                    "duration": "4 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 28,
+            "title": "Tiếng Hàn Giao Tiếp Cơ Bản",
+            "category": "Ngoại Ngữ",
+            "instructor": "Kim Soo Jin",
+            "instructorRole": "Korean Language Trainer",
+            "price": 999000,
+            "originalPrice": 1999000,
+            "lessons": 30,
+            "duration": "22 giờ",
+            "rating": 4.7,
+            "students": 1650,
+            "image": "korean",
+            "badge": "New",
+            "level": "Cơ bản",
+            "language": "Tiếng Việt & Hàn",
+            "certificate": true,
+            "lastUpdated": "2024-02-20",
+            "description": "Giao tiếp tiếng Hàn hàng ngày.",
+            "whatYouLearn": [
+                "Hangul",
+                "Speaking"
+            ],
+            "curriculum": [
+                {
+                    "title": "Korean Basics",
+                    "duration": "3 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": []
+        },
+        {
+            "id": 29,
+            "title": "Nhiếp Ảnh Chân Dung & Lifestyle",
+            "category": "Nhiếp Ảnh",
+            "instructor": "Đặng Tuấn Kiệt",
+            "instructorRole": "Lifestyle Photographer",
+            "price": 1299000,
+            "originalPrice": 2599000,
+            "lessons": 28,
+            "duration": "20 giờ",
+            "rating": 4.8,
+            "students": 1100,
+            "image": "portrait",
+            "badge": "Hot",
+            "level": "Trung cấp",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-05",
+            "description": "Chụp ảnh chân dung chuyên nghiệp.",
+            "whatYouLearn": [
+                "Lighting",
+                "Posing"
+            ],
+            "curriculum": [
+                {
+                    "title": "Portrait Setup",
+                    "duration": "4 giờ",
+                    "type": "video"
+                }
+            ],
+            "requirements": [
+                "Nhiếp ảnh cơ bản"
+            ]
+        },
+        {
+            "id": 30,
+            "title": "Travel Photography & Storytelling",
+            "category": "Nhiếp Ảnh",
+            "instructor": "Nguyễn Gia Huy",
+            "instructorRole": "Travel Photographer",
+            "price": 1399000,
+            "originalPrice": 2799000,
+            "lessons": 30,
+            "duration": "22 giờ",
+            "rating": 4.9,
+            "students": 980,
+            "image": "travel-photo",
+            "badge": "Bestseller",
+            "level": "Nâng cao",
+            "language": "Tiếng Việt",
+            "certificate": true,
+            "lastUpdated": "2024-03-18",
+            "description": "Kể chuyện bằng hình ảnh du lịch.",
+            "whatYouLearn": [
+                "Storytelling",
+                "Composition"
+            ],
+            "curriculum": [
+                {
+                    "title": "Travel Photography",
+                    "duration": "5 giờ",
+                    "type": "video + project"
+                }
+            ],
+            "requirements": [
+                "Nhiếp ảnh cơ bản"
+            ]
+        }
+    ]
 }
