@@ -1,12 +1,25 @@
 
+import {  Routes, Route } from 'react-router'
 import './App.css'
-import CardCourse from './components/ui/CardCourse'
+import MainLayout from './components/layouts/MainLayout'
+
+import CourseDetail from './pages/CourseDetail'
+import CourseListPage from './pages/CoursePage'
+
 
 function App() {
   
   return (
     <>
-      <CardCourse image="https://demo.edublink.co/wp-content/uploads/2023/03/course-04-590x430.jpg" />
+     
+        <Routes>
+        <Route element={<MainLayout />}>
+        <Route path="/courses" element={<CourseListPage/>} />
+        <Route path="/courses/:id" element={<CourseDetail />} />
+      </Route>
+      {/* <Route path="*" element={<NotFound />} /> */}
+      </Routes>
+    
     </>
   )
 }
