@@ -7,12 +7,7 @@ import { Pagination } from "../components/ui/Pagination";
 import { usePagination } from "../hooks/usePagnition";
 import { useFilterWithPagination } from "../hooks/useFilterAndPagination";
 import { useCourseFilterStore } from "../stores/courseFilterStore";
-
-
-
-
 export default function CourseListPage() {
-
   const { data, isLoading } = useCourses();
   const { search, setSearch } = useCourseFilterStore();
   const [category, setCategory] = useState("");
