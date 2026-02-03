@@ -1,6 +1,6 @@
 import "./App.css";
 // Import từ react-router-dom
-import { BrowserRouter, Routes, Route } from "react-router";
+import { Routes, Route } from "react-router";
 import MainLayout from "./components/layouts/MainLayout";
 import HomePage from "./pages/HomePage";
 import CoursePage from "./pages/CoursePage";
