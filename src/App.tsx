@@ -7,10 +7,10 @@ import CoursePage from "./pages/CoursePage";
 import CourseDetail from "./pages/CourseDetail";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
-
+import ContactPage from "./pages/ContactPage";
 function App() {
   return (
-    
+  
       <Routes>
         {/* MainLayout cần có Outlet bên trong */}
         <Route element={<MainLayout />}>
@@ -19,6 +19,7 @@ function App() {
           <Route path="/courses/:id" element={<CourseDetail />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Route>
       </Routes>
    
